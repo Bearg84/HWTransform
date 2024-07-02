@@ -8,6 +8,6 @@ public class Mover : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(_movementDirection, Space.World);
+        transform.Translate(_movementDirection, Space.Self);
     }
 }
